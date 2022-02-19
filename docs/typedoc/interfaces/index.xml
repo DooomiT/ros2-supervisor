@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ROS2 CLI – Interfaces</title><link>https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/</link><description>Recent content in Interfaces on ROS2 CLI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Interface: SpawnCommandOptions</title><link>https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/spawncommandoptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/spawncommandoptions/</guid><description>
+&lt;p>defines the input for spawnCommand&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> The command to execute&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> Invoked after the command closes&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> List of arguments to execute the command with&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> Name of the process&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> Path where the log will be saved to&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong>
+Invoked after the command execution stops on error&lt;/p>
+&lt;p>&lt;strong>&lt;code>param&lt;/code>&lt;/strong> specifies if the command should be reexecuted on error&lt;/p>
+&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
+&lt;h3 id="properties">Properties&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="SpawnCommandOptions.md#callback">callback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#command">command&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#errorcallback">errorCallback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#name">name&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#options">options&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#outputpath">outputPath&lt;/a>&lt;/li>
+&lt;li>&lt;a href="SpawnCommandOptions.md#restartonerror">restartOnError&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="properties-1">Properties&lt;/h2>
+&lt;h3 id="callback">callback&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>callback&lt;/strong>: &lt;code>Function&lt;/code>&lt;/p>
+&lt;h4 id="defined-in">Defined in&lt;/h4>
+&lt;p>common/types.ts:52&lt;/p>
+&lt;hr>
+&lt;h3 id="command">command&lt;/h3>
+&lt;p>• &lt;strong>command&lt;/strong>: &lt;code>string&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-1">Defined in&lt;/h4>
+&lt;p>common/types.ts:51&lt;/p>
+&lt;hr>
+&lt;h3 id="errorcallback">errorCallback&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>errorCallback&lt;/strong>: &lt;code>Function&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-2">Defined in&lt;/h4>
+&lt;p>common/types.ts:55&lt;/p>
+&lt;hr>
+&lt;h3 id="name">name&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>name&lt;/strong>: &lt;code>string&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-3">Defined in&lt;/h4>
+&lt;p>common/types.ts:53&lt;/p>
+&lt;hr>
+&lt;h3 id="options">options&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>options&lt;/strong>: &lt;code>SpawnOptionsWithoutStdio&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-4">Defined in&lt;/h4>
+&lt;p>common/types.ts:57&lt;/p>
+&lt;hr>
+&lt;h3 id="outputpath">outputPath&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>outputPath&lt;/strong>: &lt;code>string&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-5">Defined in&lt;/h4>
+&lt;p>common/types.ts:54&lt;/p>
+&lt;hr>
+&lt;h3 id="restartonerror">restartOnError&lt;/h3>
+&lt;p>• &lt;code>Optional&lt;/code> &lt;strong>restartOnError&lt;/strong>: &lt;code>boolean&lt;/code>&lt;/p>
+&lt;h4 id="defined-in-6">Defined in&lt;/h4>
+&lt;p>common/types.ts:56&lt;/p></description></item></channel></rss>

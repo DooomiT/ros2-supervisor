@@ -1,0 +1,334 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ROS2 CLI – Readme</title><link>https://dooomit.github.io/ros2-cli/docs/typedoc/</link><description>Recent content in Readme on ROS2 CLI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://dooomit.github.io/ros2-cli/docs/typedoc/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Interfaces</title><link>https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dooomit.github.io/ros2-cli/docs/typedoc/interfaces/</guid><description/></item><item><title>Docs: ros2-cli - v1.0.0</title><link>https://dooomit.github.io/ros2-cli/docs/typedoc/modules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dooomit.github.io/ros2-cli/docs/typedoc/modules/</guid><description>
+&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
+&lt;h3 id="interfaces">Interfaces&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="interfaces/SpawnCommandOptions.md">SpawnCommandOptions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="type-aliases">Type aliases&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="modules.md#common">Common&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#component">Component&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#config">Config&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#options">Options&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="functions">Functions&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="modules.md#build">build&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#pathexists">pathExists&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#readyaml">readYAML&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#run">run&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#selectcomponents">selectComponents&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#spawncommand">spawnCommand&lt;/a>&lt;/li>
+&lt;li>&lt;a href="modules.md#validateenvironment">validateEnvironment&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="type-aliases-1">Type aliases&lt;/h2>
+&lt;h3 id="common">Common&lt;/h3>
+&lt;p>Ƭ &lt;strong>Common&lt;/strong>: &lt;code>Object&lt;/code>&lt;/p>
+&lt;p>defines the structure of all common options&lt;/p>
+&lt;h4 id="type-declaration">Type declaration&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>pythonCommand&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>pythonVersion&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="defined-in">Defined in&lt;/h4>
+&lt;p>common/types.ts:16&lt;/p>
+&lt;hr>
+&lt;h3 id="component">Component&lt;/h3>
+&lt;p>Ƭ &lt;strong>Component&lt;/strong>: &lt;code>Object&lt;/code>&lt;/p>
+&lt;p>defines the structure of components&lt;/p>
+&lt;h4 id="type-declaration-1">Type declaration&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>name&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>path?&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>program&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>restartOnError?&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>boolean&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="defined-in-1">Defined in&lt;/h4>
+&lt;p>common/types.ts:6&lt;/p>
+&lt;hr>
+&lt;h3 id="config">Config&lt;/h3>
+&lt;p>Ƭ &lt;strong>Config&lt;/strong>: &lt;code>Object&lt;/code>&lt;/p>
+&lt;p>defines the structure of the config&lt;/p>
+&lt;h4 id="type-declaration-2">Type declaration&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>common&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#common">&lt;code>Common&lt;/code>&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>components&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#component">&lt;code>Component&lt;/code>&lt;/a>[]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>name&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="defined-in-2">Defined in&lt;/h4>
+&lt;p>common/types.ts:32&lt;/p>
+&lt;hr>
+&lt;h3 id="options">Options&lt;/h3>
+&lt;p>Ƭ &lt;strong>Options&lt;/strong>: &lt;code>Object&lt;/code>&lt;/p>
+&lt;p>defines the structure of command options&lt;/p>
+&lt;h4 id="type-declaration-3">Type declaration&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>interactive&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>boolean&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>validation&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>boolean&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="defined-in-3">Defined in&lt;/h4>
+&lt;p>common/types.ts:24&lt;/p>
+&lt;h2 id="functions-1">Functions&lt;/h2>
+&lt;h3 id="build">build&lt;/h3>
+&lt;p>▸ &lt;strong>build&lt;/strong>(&lt;code>configPath&lt;/code>, &lt;code>options&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;p>This function executes the build&lt;/p>
+&lt;p>&lt;strong>&lt;code>example&lt;/code>&lt;/strong>
+build('./config')&lt;/p>
+&lt;h4 id="parameters">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>configPath&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;td style="text-align:left">the path of the config used&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>options&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#options">&lt;code>Options&lt;/code>&lt;/a>&lt;/td>
+&lt;td style="text-align:left">command options&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;h4 id="defined-in-4">Defined in&lt;/h4>
+&lt;p>commands/build.ts:16&lt;/p>
+&lt;hr>
+&lt;h3 id="pathexists">pathExists&lt;/h3>
+&lt;p>▸ &lt;strong>pathExists&lt;/strong>(&lt;code>path&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>boolean&lt;/code>&amp;gt;&lt;/p>
+&lt;p>checks if a path exists&lt;/p>
+&lt;h4 id="parameters-1">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>path&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;td style="text-align:left">path to check&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-1">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>boolean&lt;/code>&amp;gt;&lt;/p>
+&lt;ul>
+&lt;li>The output of the command&lt;/li>
+&lt;/ul>
+&lt;h4 id="defined-in-5">Defined in&lt;/h4>
+&lt;p>utils/pathExists.ts:8&lt;/p>
+&lt;hr>
+&lt;h3 id="readyaml">readYAML&lt;/h3>
+&lt;p>▸ &lt;strong>readYAML&lt;/strong>(&lt;code>path&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>any&lt;/code>&amp;gt;&lt;/p>
+&lt;p>&lt;strong>&lt;code>example&lt;/code>&lt;/strong>
+readYaml('./myFile')&lt;/p>
+&lt;h4 id="parameters-2">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>path&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;td style="text-align:left">location of file to read&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-2">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>any&lt;/code>&amp;gt;&lt;/p>
+&lt;ul>
+&lt;li>parsed file content&lt;/li>
+&lt;/ul>
+&lt;h4 id="defined-in-6">Defined in&lt;/h4>
+&lt;p>utils/readYAML.ts:13&lt;/p>
+&lt;hr>
+&lt;h3 id="run">run&lt;/h3>
+&lt;p>▸ &lt;strong>run&lt;/strong>(&lt;code>configPath&lt;/code>, &lt;code>options&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;h4 id="parameters-3">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>configPath&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;code>string&lt;/code>&lt;/td>
+&lt;td style="text-align:left">the path of the config used&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>options&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#options">&lt;code>Options&lt;/code>&lt;/a>&lt;/td>
+&lt;td style="text-align:left">command options&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-3">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;h4 id="defined-in-7">Defined in&lt;/h4>
+&lt;p>commands/run.ts:31&lt;/p>
+&lt;hr>
+&lt;h3 id="selectcomponents">selectComponents&lt;/h3>
+&lt;p>▸ &lt;strong>selectComponents&lt;/strong>(&lt;code>components&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;a href="modules.md#component">&lt;code>Component&lt;/code>&lt;/a>[]&amp;gt;&lt;/p>
+&lt;p>Provides a interactive prompt to select components&lt;/p>
+&lt;h4 id="parameters-4">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>components&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#component">&lt;code>Component&lt;/code>&lt;/a>[]&lt;/td>
+&lt;td style="text-align:left">list of components&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-4">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;a href="modules.md#component">&lt;code>Component&lt;/code>&lt;/a>[]&amp;gt;&lt;/p>
+&lt;h4 id="defined-in-8">Defined in&lt;/h4>
+&lt;p>utils/selectComponents.ts:8&lt;/p>
+&lt;hr>
+&lt;h3 id="spawncommand">spawnCommand&lt;/h3>
+&lt;p>▸ &lt;strong>spawnCommand&lt;/strong>(&lt;code>options&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;p>This function spawns a shell executing a program&lt;/p>
+&lt;p>&lt;strong>&lt;code>example&lt;/code>&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>spawnCommand({'cat myFile', myCallback(options), ['--verbose'], 'myCommand', 'logs', myErrorHandler(options)})
+&lt;/code>&lt;/pre>
+&lt;h4 id="parameters-5">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>options&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="interfaces/SpawnCommandOptions.md">&lt;code>SpawnCommandOptions&lt;/code>&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-5">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;ul>
+&lt;li>The output of the command&lt;/li>
+&lt;/ul>
+&lt;h4 id="defined-in-9">Defined in&lt;/h4>
+&lt;p>utils/spawnCommand.ts:40&lt;/p>
+&lt;hr>
+&lt;h3 id="validateenvironment">validateEnvironment&lt;/h3>
+&lt;p>▸ &lt;strong>validateEnvironment&lt;/strong>(&lt;code>config&lt;/code>): &lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;p>This function checks if all required binaries for build are available&lt;/p>
+&lt;p>&lt;strong>&lt;code>example&lt;/code>&lt;/strong>
+validateEnvironment(')&lt;/p>
+&lt;h4 id="parameters-6">Parameters&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Name&lt;/th>
+&lt;th style="text-align:left">Type&lt;/th>
+&lt;th style="text-align:left">Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>config&lt;/code>&lt;/td>
+&lt;td style="text-align:left">&lt;a href="modules.md#config">&lt;code>Config&lt;/code>&lt;/a>&lt;/td>
+&lt;td style="text-align:left">the used python version&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="returns-6">Returns&lt;/h4>
+&lt;p>&lt;code>Promise&lt;/code>&amp;lt;&lt;code>void&lt;/code>&amp;gt;&lt;/p>
+&lt;h4 id="defined-in-10">Defined in&lt;/h4>
+&lt;p>utils/validateEnvironment.ts:12&lt;/p></description></item></channel></rss>
