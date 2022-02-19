@@ -1,7 +1,6 @@
 {
-  "name": "turborepo-basic-shared",
-  "version": "0.0.0",
-  "private": true,
+  "name": "ros2-supervisor",
+  "version": "1.0.0",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -14,7 +13,7 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1",
-    "turbo": "latest"
+    "turbo": "^1.1.3"
   },
   "engines": {
     "npm": ">=7.0.0",

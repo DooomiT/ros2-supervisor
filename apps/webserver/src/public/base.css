@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding-bottom: 3rem;
+    background-color: rgb(36, 36, 36);
+    font-family: Consolas, Lucida Console, Courier New, monospace;
+}
+
+#form {
+    background-color: rgb(36, 36, 36);
+    padding: 0.25rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 3rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background-color:rgb(92, 88, 88);
+    color: rgb(255,255,255);
+    border:0 none;
+    cursor:pointer;
+    border-radius: 2px; 
+}
+
+#input {
+    border: none;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    margin: 0.25rem;
+    background-color:rgb(92, 88, 88);
+    color: rgb(255,255,255);
+}
+
+#input:focus {
+    outline: none;
+}

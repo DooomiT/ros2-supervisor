@@ -1,0 +1,12 @@
+name: my-example-config
+common:
+  pythonCommand: python3
+  pythonVersion: 3.9.10
+components:
+  - name: run1
+    outputPath: bin/logs
+    program: run1.sh
+    restartOnError: true
+  - name: run2
+    outputPath: bin/logs
+    program: run2.sh
